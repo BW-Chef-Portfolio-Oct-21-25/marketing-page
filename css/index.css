@@ -565,8 +565,17 @@ header .video-container .overlay-desc .cta_btn {
 }
 .wrapper .developers_container .developer_items {
   margin-top: 5%;
-  width: auto;
   font-size: 2rem;
+  width: 23%;
+}
+@media (max-width: 500px) {
+  .wrapper .developers_container .developer_items {
+    width: 100%;
+  }
+}
+.wrapper .developers_container .developer_items .web_developer_img {
+  max-width: 100%;
+  height: auto;
 }
 .wrapper .developers_container .developer_items .person_name {
   margin-top: 10px;

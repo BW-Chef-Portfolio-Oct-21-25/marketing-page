@@ -48,9 +48,15 @@
     }
     .developer_items {
       margin-top: 5%;
-      width: auto;
       font-size: 2rem;
-
+      width: 23%;
+      @media @phone500 {
+        width: 100%;
+      }
+      .web_developer_img {
+        max-width: 100%;
+        height: auto;
+      }
       .person_name {
         margin-top: 10px;
         font-weight: bold;
