@@ -1,0 +1,88 @@
+.form_container {
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media @tablet {
+    width: 90%;
+    margin: 0 auto 5%;
+  }
+  .news_container {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/news_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media @phone547 {
+      background-position: center center;
+    }
+  }
+
+  .newsletter_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    position: absolute;
+    height: 72%;
+    width: 70%;
+    margin: 0 auto;
+    @media @phone {
+      flex-direction: column;
+    }
+    @media @phone547 {
+      align-self: center;
+      height: 60%;
+      margin: 0;
+      width: 100%;
+    }
+
+    h2 {
+      color: white;
+      font-size: 2.4rem;
+      text-align: center;
+      @media @phone {
+        font-size: 1.8rem;
+      }
+    }
+    p {
+      text-align: center;
+      color: white;
+      @media @phone547 {
+        display: none;
+      }
+    }
+    .newsletter {
+      display: flex;
+      @media @phone547 {
+        display: flex;
+        flex-direction: column;
+      }
+      input[type='text'] {
+        color: white;
+        background: transparent;
+        border: none;
+        height: 40px;
+      }
+      ::placeholder {
+        color: white;
+        opacity: 1;
+        text-align: center;
+      }
+      .sub_btn {
+        margin-bottom: 4px;
+        background: white;
+        padding: 5px;
+        width: 80px;
+        border: 1px solid white;
+        cursor: pointer;
+      }
+    }
+  }
+}
