@@ -182,3 +182,115 @@ a:active {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: #f4f4f0;
+  opacity: 0.9;
+}
+@media (max-width: 736px) {
+  .navigation {
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 10px;
+  }
+}
+.navigation .nav_menu_left {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33%;
+}
+@media (max-width: 736px) {
+  .navigation .nav_menu_left {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 736px) and (max-width: 736px) {
+  .navigation .nav_menu_left li {
+    padding: 2px 0;
+  }
+}
+.navigation .nav_menu_left a {
+  font-size: 1.5rem;
+}
+@media (max-width: 736px) {
+  .navigation .nav_menu_left a {
+    font-size: 2.7rem;
+  }
+}
+.navigation .logo_txt {
+  display: flex;
+  justify-content: center;
+  width: 32%;
+}
+@media (max-width: 736px) {
+  .navigation .logo_txt {
+    order: -1;
+    width: 100%;
+  }
+}
+.navigation .logo_txt h1 {
+  text-align: center;
+  font-size: 4.4rem;
+}
+@media (max-width:857px) {
+  .navigation .logo_txt h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 736px) {
+  .navigation .logo_txt h1 {
+    font-size: 4.4rem;
+  }
+}
+.navigation .nav_menu_right {
+  padding-left: 55px;
+  display: flex;
+  width: 35%;
+  align-items: center;
+}
+@media (max-width:857px) {
+  .navigation .nav_menu_right {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 736px) {
+  .navigation .nav_menu_right {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+.navigation .nav_menu_right a {
+  font-size: 1.5rem;
+}
+@media (max-width: 736px) {
+  .navigation .nav_menu_right a {
+    font-size: 2.7rem;
+  }
+}
+.navigation .nav_menu_right .gold_btn {
+  background: #c19434;
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 3px;
+  padding: 5px;
+}
+@media (max-width: 736px) {
+  .navigation .nav_menu_right .gold_btn {
+    margin-left: 0;
+  }
+}
+.navigation .nav_menu_right .gold_btn a {
+  color: #f1f1ef;
+  padding: 5px;
+}
