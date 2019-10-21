@@ -203,7 +203,7 @@ a:active {
 }
 .navigation .nav_menu_left {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 33%;
 }
 @media (max-width: 785px) {
