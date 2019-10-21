@@ -1,0 +1,52 @@
+header {
+  .video-container {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    position: relative;
+    @media @phone {
+      margin-top: 1%;
+    }
+    video {
+      height: auto;
+      vertical-align: middle;
+      width: 100%;
+      opacity: 0.8;
+    }
+    .overlay-desc {
+      background: rgba(0, 0, 0, 0);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      .flexContainerCenter(center, center);
+      flex-flow: column;
+      h1 {
+        color: @h1ColorHeader;
+        font-size: 6rem;
+        text-align: center;
+        width: 67%;
+        @media @phone547 {
+          font-size: 3.5rem;
+        }
+      }
+      .cta_btn_container {
+        width: 20%;
+        opacity: 0.8;
+        border-radius: 10px;
+        @media @phone547 {
+          width: 35%;
+        }
+      }
+      .cta_btn {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 2.2rem;
+        text-align: center;
+        background: @btnColorHeader;
+        border-radius: 3px;
+      }
+    }
+  }
+}

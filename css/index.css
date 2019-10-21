@@ -294,3 +294,61 @@ a:active {
   color: #f1f1ef;
   padding: 5px;
 }
+header .video-container {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  position: relative;
+}
+@media (max-width: 736px) {
+  header .video-container {
+    margin-top: 1%;
+  }
+}
+header .video-container video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  opacity: 0.8;
+}
+header .video-container .overlay-desc {
+  background: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+header .video-container .overlay-desc h1 {
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  width: 67%;
+}
+@media (max-width: 547px) {
+  header .video-container .overlay-desc h1 {
+    font-size: 3.5rem;
+  }
+}
+header .video-container .overlay-desc .cta_btn_container {
+  width: 20%;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+@media (max-width: 547px) {
+  header .video-container .overlay-desc .cta_btn_container {
+    width: 35%;
+  }
+}
+header .video-container .overlay-desc .cta_btn {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 2.2rem;
+  text-align: center;
+  background: white;
+  border-radius: 3px;
+}
