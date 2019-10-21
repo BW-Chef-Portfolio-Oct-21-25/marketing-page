@@ -1,0 +1,32 @@
+footer {
+  .footer_bar {
+    display: flex;
+    background: @bgfooter;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    .footer_list_left {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      li a {
+        font-size: 1.3rem;
+        color: white;
+      }
+    }
+    .footer_list_right {
+      display: flex;
+      justify-content: space-evenly;
+      width: 50%;
+      .fa-facebook-square,
+      .fa-instagram,
+      .fa-twitter-square,
+      .fa-youtube-square,
+      .fa-linkedin {
+        color: #f1f1ef;
+      }
+    }
+  }
+}

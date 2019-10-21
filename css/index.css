@@ -585,3 +585,33 @@ header .video-container .overlay-desc .cta_btn {
   border: 1px solid white;
   cursor: pointer;
 }
+footer .footer_bar {
+  display: flex;
+  background: #c19434;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+footer .footer_bar .footer_list_left {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+footer .footer_bar .footer_list_left li a {
+  font-size: 1.3rem;
+  color: white;
+}
+footer .footer_bar .footer_list_right {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+footer .footer_bar .footer_list_right .fa-facebook-square,
+footer .footer_bar .footer_list_right .fa-instagram,
+footer .footer_bar .footer_list_right .fa-twitter-square,
+footer .footer_bar .footer_list_right .fa-youtube-square,
+footer .footer_bar .footer_list_right .fa-linkedin {
+  color: #f1f1ef;
+}
