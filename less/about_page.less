@@ -43,10 +43,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 0 auto;
+    @media @phone500 {
+      flex-direction: column;
+    }
     .developer_items {
       margin-top: 5%;
       width: auto;
       font-size: 2rem;
+
       .person_name {
         margin-top: 10px;
         font-weight: bold;

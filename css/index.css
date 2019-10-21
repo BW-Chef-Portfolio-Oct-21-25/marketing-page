@@ -239,9 +239,6 @@ a:active {
   cursor: pointer;
 }
 @media (max-width: 785px) {
-  .navigation .logo_txt {
-    order: -1;
-  }
 }
 .navigation .nav_menu_right {
   display: flex;
@@ -267,7 +264,7 @@ a:active {
 }
 @media (max-width: 785px) {
   .navigation .nav_menu_right a {
-    font-size: 2.1rem;
+    font-size: 2.7rem;
   }
 }
 .navigation .nav_menu_right .gold_btn {
@@ -281,6 +278,7 @@ a:active {
   .navigation .nav_menu_right .gold_btn {
     margin-left: 0;
     margin-top: 4px;
+    width: 170px;
   }
 }
 .navigation .nav_menu_right .gold_btn a {
@@ -559,6 +557,11 @@ header .video-container .overlay-desc .cta_btn {
   flex-wrap: wrap;
   flex-direction: row;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .wrapper .developers_container {
+    flex-direction: column;
+  }
 }
 .wrapper .developers_container .developer_items {
   margin-top: 5%;
