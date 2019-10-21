@@ -464,3 +464,25 @@ header .video-container .overlay-desc .cta_btn {
 .second_container .h2_cont h2 {
   font-size: 2.4rem;
 }
+.second_container .season_container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .second_container .season_container {
+    flex-direction: column;
+  }
+}
+.second_container .season_container .all_items_second_cont {
+  width: 30%;
+}
+@media (max-width: 500px) {
+  .second_container .season_container .all_items_second_cont {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
+.second_container .season_container .all_items_second_cont img {
+  max-width: 100%;
+  height: auto;
+}
