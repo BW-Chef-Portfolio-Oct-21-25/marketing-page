@@ -700,8 +700,6 @@ header .video-container .overlay-desc .cta_btn:hover {
 .form_container .newsletter_container .newsletter .sub_btn {
   margin-bottom: 4px;
   background: white;
-  padding: 5px;
-  width: 80px;
   border: 1px solid white;
   cursor: pointer;
 }
