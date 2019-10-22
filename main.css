@@ -19,23 +19,25 @@ a{
     font-size: 2rem;
     justify-content: space-evenly;
     padding: 10px;
-
+}
+.navigation-tool :hover{
+    color: black;
 }
 .center {
     display: flex;
     width: 600px;
     height: 500px;
-    background-image: url("banner.jpg");
+    background-image: url("download-4.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
 }
 .center h1{
-    color: white;
+    color: black;
     font-size: 3rem;
-    text-align: center;
-    padding: 60px;
-    padding-top: 60 0 0 0;
-
+    padding: 100px;
+    position: relative;
+    left: 150px;
+    top:  80px;
     
 }
