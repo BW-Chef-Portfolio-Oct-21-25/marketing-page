@@ -1,5 +1,41 @@
+body{
+    background-color: lightgray;
+}
 html{
-    font-size: 52.5%;
     width: 80%;
     margin: 0 auto;
+    font-size: 62.5%;
+}
+.navigation-tool{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: gray;
+    padding: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+.center {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+.center h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 60px;
+    padding-top: 60 0 0 0;
+
+    
 }
