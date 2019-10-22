@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+html{
+    font-size: 62.5%;
+    width: 80%;
+    margin: 0 auto
+}
+body{
+background-image:url(foodbackground.jpg);
+
+}
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.cookpic{
+        max-width:100%;
+        height:auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 2rem;
+    color: olive;
+}
+
+.middlepageText{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.5rem;
+    font-family: Apple Chancery, cursive;
+}
