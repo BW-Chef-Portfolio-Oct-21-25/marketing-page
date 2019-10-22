@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato&display=swap"
       rel="stylesheet"
@@ -14,6 +15,7 @@
       src="https://kit.fontawesome.com/a9ab182fa8.js"
       crossorigin="anonymous"
     ></script>
+
     <title>About Chef portfolio</title>
   </head>
   <body>
@@ -24,11 +26,13 @@
           <li><a href="/#solution_scroll">Solution</a></li>
           <li><a href="/#fresh_scroll">Fresh Ideas</a></li>
         </ul>
-        <a href="/">
-          <div class="logo_txt">
-            <!-- <h1>Chef Gordon</h1> -->
-          </div>
-        </a>
+        <div data-aos="slide-down">
+          <a href="/">
+            <div class="logo_txt">
+              <!-- <h1>Chef Gordon</h1> -->
+            </div>
+          </a>
+        </div>
         <ul class="nav_menu_right">
           <li><a href="/#newsletter_href">Newsletter</a></li>
           <li><a href="/about.html">About</a></li>
@@ -43,9 +47,11 @@
             <p>Meet talent & experience, meet the team</p>
             <p>
               Diversity of people, knowledge, and experience. Shared values,
-              culture, and goals. Thanks to them we are a unique team. The team,
-              that is our greatest strength.
+              culture, and goals.The team, that is our greatest strength.
             </p>
+            <div class="meetus_btn">
+              <a href="#scroll_developers"><span>Meet us!</span></a>
+            </div>
           </div>
         </div>
         <div class="wrapper">
@@ -60,7 +66,7 @@
             each other while aiming for the common goal. We know how to be the
             team, that is our greatest strength. Let's get to know each other!
           </p>
-          <div class="developers_container">
+          <div class="developers_container" id="scroll_developers">
             <div class="developer_one developer_items">
               <img
                 class="web_developer_img"
@@ -70,6 +76,9 @@
 
               <div class="person_name">Name</div>
               <div class="person_position">Web Developer</div>
+              <div class="person_github">
+                <a href="http://github.com/">Github:&nbspPerson name</a>
+              </div>
             </div>
             <div class="developer_two developer_items">
               <img
@@ -79,6 +88,9 @@
               />
               <div class="person_name">Name</div>
               <div class="person_position">Web Developer</div>
+              <div class="person_github">
+                <a href="http://github.com/">Github:&nbspPerson name</a>
+              </div>
             </div>
             <div class="developer_three developer_items">
               <img
@@ -88,6 +100,9 @@
               />
               <div class="person_name">Name</div>
               <div class="person_position">Web Developer</div>
+              <div class="person_github">
+                <a href="http://github.com/">Github:&nbspPerson name</a>
+              </div>
             </div>
             <div class="developer_four developer_items">
               <img
@@ -97,6 +112,9 @@
               />
               <div class="person_name">Name</div>
               <div class="person_position">Web Developer</div>
+              <div class="person_github">
+                <a href="http://github.com/">Github:&nbspPerson name</a>
+              </div>
             </div>
           </div>
         </div>
@@ -128,5 +146,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

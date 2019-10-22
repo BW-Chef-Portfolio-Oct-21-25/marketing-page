@@ -559,20 +559,39 @@ header .video-container .overlay-desc .cta_btn:hover {
     width: 90%;
   }
 }
-.wrapper {
+.content_main .img_team_container .meetus_btn {
+  margin-top: 12px;
+  background: white;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 15px 20px black;
+  cursor: pointer;
+}
+.content_main .img_team_container .meetus_btn span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+.content_main .img_team_container .meetus_btn:hover {
+  background: #d9d9d9;
+  transform: translateY(1px);
+}
+.content_main .wrapper {
   margin-top: 3%;
   margin-bottom: 3%;
 }
 @media (max-width: 785px) {
-  .wrapper {
+  .content_main .wrapper {
     margin-left: 3%;
     margin-right: 3%;
   }
 }
-.wrapper h1 {
+.content_main .wrapper h1 {
   font-size: 2.2rem;
 }
-.wrapper .developers_container {
+.content_main .wrapper .developers_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -582,34 +601,37 @@ header .video-container .overlay-desc .cta_btn:hover {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  .wrapper .developers_container {
+  .content_main .wrapper .developers_container {
     flex-direction: column;
   }
 }
-.wrapper .developers_container .developer_items {
+.content_main .wrapper .developers_container .developer_items {
   margin-top: 5%;
   font-size: 2rem;
   width: 23%;
 }
 @media (max-width: 500px) {
-  .wrapper .developers_container .developer_items {
+  .content_main .wrapper .developers_container .developer_items {
     width: 100%;
   }
 }
-.wrapper .developers_container .developer_items .web_developer_img {
+.content_main .wrapper .developers_container .developer_items .web_developer_img {
   max-width: 100%;
   height: auto;
 }
-.wrapper .developers_container .developer_items .person_name {
+.content_main .wrapper .developers_container .developer_items .person_name {
   margin-top: 10px;
   font-weight: bold;
   font-size: 1.6rem;
 }
-.wrapper .developers_container .developer_items .person_position {
+.content_main .wrapper .developers_container .developer_items .person_position {
   font-size: 0.875em;
-  line-height: 1.71;
+  line-height: 1.7;
   margin-top: 4px;
   color: #999;
+}
+.content_main .wrapper .developers_container .developer_items .person_github {
+  font-size: 0.775em;
 }
 .form_container {
   margin-bottom: 5%;
