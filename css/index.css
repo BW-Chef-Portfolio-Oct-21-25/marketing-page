@@ -546,6 +546,12 @@ header .video-container .overlay-desc .cta_btn {
   margin-top: 3%;
   margin-bottom: 3%;
 }
+@media (max-width: 785px) {
+  .wrapper {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
 .wrapper h1 {
   font-size: 2.2rem;
 }
