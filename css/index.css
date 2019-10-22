@@ -221,6 +221,9 @@ a:active {
 .navigation .nav_menu_left a {
   font-size: 1.5rem;
 }
+.navigation .nav_menu_left a:hover {
+  color: #009700;
+}
 @media (max-width: 785px) {
   .navigation .nav_menu_left a {
     font-size: 2.7rem;
@@ -247,9 +250,6 @@ a:active {
   justify-content: space-between;
 }
 @media (max-width:883px) {
-  .navigation .nav_menu_right {
-    padding-left: 10px;
-  }
 }
 @media (max-width: 785px) {
   .navigation .nav_menu_right {
@@ -262,6 +262,9 @@ a:active {
 .navigation .nav_menu_right a {
   font-size: 1.5rem;
 }
+.navigation .nav_menu_right a:hover {
+  color: #50652e;
+}
 @media (max-width: 785px) {
   .navigation .nav_menu_right a {
     font-size: 2.7rem;
@@ -270,7 +273,6 @@ a:active {
 .navigation .nav_menu_right .gold_btn {
   background: #c19434;
   text-align: center;
-  margin-left: 10px;
   border-radius: 3px;
   padding: 5px;
   box-shadow: 0px 15px 20px #cdddb5;
@@ -443,6 +445,9 @@ header .video-container .overlay-desc .cta_btn:hover {
 .first_container .content_container a {
   font-weight: 600;
   font-size: 1.3rem;
+}
+.first_container .content_container a:hover {
+  color: #009700;
 }
 .first_container .content_container .all_items_first_cont {
   width: 30%;
@@ -632,6 +637,9 @@ header .video-container .overlay-desc .cta_btn:hover {
 }
 .content_main .wrapper .developers_container .developer_items .person_github {
   font-size: 0.775em;
+}
+.content_main .wrapper .developers_container .developer_items .person_github a:hover {
+  color: #50652e;
 }
 .form_container {
   margin-bottom: 5%;

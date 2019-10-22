@@ -29,6 +29,9 @@
     }
     a {
       font-size: 1.5rem;
+      &:hover {
+        color: lighten(darkGreen, 10%);
+      }
       @media @phone {
         font-size: 2.7rem;
       }
@@ -68,7 +71,7 @@
     align-items: center;
     justify-content: space-between;
     @media @tablet {
-      padding-left: 10px;
+      // padding-left: 10px;
     }
     @media @phone {
       flex-direction: column;
@@ -79,6 +82,9 @@
 
     a {
       font-size: 1.5rem;
+      &:hover {
+        color: lighten(@darkGreen, 10%);
+      }
       @media @phone {
         font-size: 2.7rem;
       }
@@ -86,7 +92,7 @@
     .gold_btn {
       background: @navRightBtn;
       text-align: center;
-      margin-left: 10px;
+      // margin-left: 5px;
       border-radius: 3px;
       padding: 5px;
       box-shadow: 0px 15px 20px lighten(@darkGreen, 60%);
@@ -100,7 +106,6 @@
         margin-top: 4px;
         width: 170px;
       }
-
       a {
         color: #f1f1ef;
         padding: 5px;
