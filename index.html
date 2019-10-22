@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato&display=swap"
       rel="stylesheet"
     />
+
     <script
       src="https://kit.fontawesome.com/a9ab182fa8.js"
       crossorigin="anonymous"
@@ -24,11 +26,14 @@
           <li><a href="#solution_scroll">Solution</a></li>
           <li><a href="#fresh_scroll">Fresh Ideas</a></li>
         </ul>
-        <a href="/">
-          <div class="logo_txt">
-            <!-- <h1>Chef Gordon</h1> -->
-          </div>
-        </a>
+        <div data-aos="slide-down">
+          <a href="/">
+            <div class="logo_txt">
+              <!-- <h1>Chef Gordon</h1> -->
+            </div>
+          </a>
+        </div>
+
         <ul class="nav_menu_right">
           <li><a href="#newsletter_href">Newsletter</a></li>
           <li><a href="/about.html">About</a></li>
@@ -194,5 +199,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
