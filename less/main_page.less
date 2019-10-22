@@ -10,7 +10,6 @@ header {
       height: auto;
       vertical-align: middle;
       width: 100%;
-      opacity: 0.8;
     }
     .overlay-desc {
       background: rgba(0, 0, 0, 0);
@@ -35,6 +34,9 @@ header {
         @media @phone500 {
           font-size: 3.5rem;
         }
+        @media (max-width: 300px) {
+          font-size: 2.5rem;
+        }
       }
       h2 {
         color: white;
@@ -55,8 +57,13 @@ header {
         width: 20%;
         opacity: 0.8;
         border-radius: 10px;
+        margin-top: 1%;
         @media @phone547 {
           width: 35%;
+        }
+        @media (max-width: 310px) {
+          width: 50%;
+          margin-top: 1%;
         }
       }
       .cta_btn {
@@ -68,6 +75,7 @@ header {
         background: @btnColorHeader;
         border-radius: 3px;
         box-shadow: 0px 15px 20px black;
+
         &:hover {
           background: darken(@btnColorHeader, 20%);
           transform: translateY(3px);
@@ -112,10 +120,7 @@ header {
     }
     a {
       font-weight: 600;
-      font-size: 1.1rem;
-      @media @phone500 {
-        font-size: 1.3rem;
-      }
+      font-size: 1.3rem;
     }
     .all_items_first_cont {
       width: 30%;

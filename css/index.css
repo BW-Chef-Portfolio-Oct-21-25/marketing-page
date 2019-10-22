@@ -278,7 +278,7 @@ a:active {
 .navigation .nav_menu_right .gold_btn:hover {
   background: #ca9c3a;
   background-color: #2ee59d;
-  transform: translateY(3px);
+  transform: translateY(1px);
 }
 @media (max-width: 785px) {
   .navigation .nav_menu_right .gold_btn {
@@ -305,7 +305,6 @@ header .video-container video {
   height: auto;
   vertical-align: middle;
   width: 100%;
-  opacity: 0.8;
 }
 header .video-container .overlay-desc {
   background: rgba(0, 0, 0, 0);
@@ -340,6 +339,11 @@ header .video-container .overlay-desc h1 {
     font-size: 3.5rem;
   }
 }
+@media (max-width: 300px) {
+  header .video-container .overlay-desc h1 {
+    font-size: 2.5rem;
+  }
+}
 header .video-container .overlay-desc h2 {
   color: white;
   font-size: 4rem;
@@ -365,10 +369,17 @@ header .video-container .overlay-desc .cta_btn_container {
   width: 20%;
   opacity: 0.8;
   border-radius: 10px;
+  margin-top: 1%;
 }
 @media (max-width: 547px) {
   header .video-container .overlay-desc .cta_btn_container {
     width: 35%;
+  }
+}
+@media (max-width: 310px) {
+  header .video-container .overlay-desc .cta_btn_container {
+    width: 50%;
+    margin-top: 1%;
   }
 }
 header .video-container .overlay-desc .cta_btn {
@@ -431,12 +442,7 @@ header .video-container .overlay-desc .cta_btn:hover {
 }
 .first_container .content_container a {
   font-weight: 600;
-  font-size: 1.1rem;
-}
-@media (max-width: 500px) {
-  .first_container .content_container a {
-    font-size: 1.3rem;
-  }
+  font-size: 1.3rem;
 }
 .first_container .content_container .all_items_first_cont {
   width: 30%;
