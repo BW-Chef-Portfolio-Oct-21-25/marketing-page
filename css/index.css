@@ -540,6 +540,9 @@ header .video-container .overlay-desc .cta_btn:hover {
   vertical-align: middle;
   width: 100%;
 }
+.content_main .img_team_container img {
+  max-width: 100%;
+}
 .content_main .img_team_container .team_description {
   display: flex;
   justify-content: center;
