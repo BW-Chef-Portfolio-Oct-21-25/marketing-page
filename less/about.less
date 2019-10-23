@@ -3,8 +3,8 @@ html {
   }
   html,
   body {
-    .body-font('Indie Flower', cursive);
-    .body-text(#5E6164);
+    font-family:'Indie Flower', cursive;
+    color:#5E6164;
     background-color: #a7c9cf;
   }
   h1,
@@ -19,7 +19,7 @@ html {
     font-size: 3.2rem;
   }
   h3 {
-    .font-3(2.8rem);
+    font-size: 2.8rem;
   }
   p {
     font-size: 1.6rem;
@@ -31,29 +31,29 @@ html {
     margin: 0 auto;
   }
   
-  .Containnav {
+  .containnav {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: pink;
+    background-color: white;
     border: 1px double #e0e0e0;
     max-width: 100%;
     width: 100%;
   }
-  .Containnav a {
+  .containnav a {
     text-decoration: none;
     font-size: 3rem;
     color: black;
-    padding: 2em;
+    
   }
-  .Containnav h1 {
+  .containnav h1 {
     font-size: 4rem;
   }
-  .Containnav nav {
+  .containnav nav {
     display: flex;
     justify-content: space-evenly;
-    max-width: 100%;
+    width: 100%;
   }
   footer {
     color: #22283B;
@@ -128,82 +128,10 @@ html {
     height: auto;
     border-radius: 10px;
   }
-  @media (max-width: 1000px){
-    .home .space-images .blast {
-        max-width: 100%;
-        width: 100%;
-      }
-      .home .space-images .sky {
-        display: none;
-      }
-      .home .space-images .launch {
-        display: none;
-      }
-      .home .walk {
-        display: flex;
-        flex-flow: column wrap;
-        max-width: 100%;
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-      }
-      .home .walk .walk-text {
-        max-width: 100%;
-        width: 100%;
-        order: 2;
-      }
-      .home .walk .walk-text .btn {
-        max-width: 90%;
-        width: 90%;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-      .home .walk .walk-img {
-        max-width: 100%;
-        width: 100%;
-        order: 1;
-        margin: 0 auto;
-      }
-    }
-  @media (max-width: 500px) {
-    .home .space-images .blast {
-      max-width: 100%;
-      width: 100%;
-    }
-    .home .space-images .sky {
-      display: none;
-    }
-    .home .space-images .launch {
-      display: none;
-    }
-    .home .walk {
-      display: flex;
-      flex-flow: column wrap;
-      max-width: 100%;
-      width: 100%;
-      padding: 0;
-      margin: 0 auto;
-    }
-    .home .walk .walk-text {
-      max-width: 100%;
-      width: 100%;
-      order: 2;
-    }
-    .home .walk .walk-text .btn {
-      max-width: 90%;
-      width: 90%;
-      padding-bottom: 20px;
-      padding-top: 20px;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-    .home .walk .walk-img {
-      max-width: 100%;
-      width: 100%;
-      order: 1;
-      margin: 0 auto;
-      justify-content: space-between;
+
+    .space-images {
+      @media (max-width: 500px){
+      flex-direction: column;
+      align-items: center;
     }
   }

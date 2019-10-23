@@ -1,0 +1,23 @@
+{
+  "name": "marketing-page",
+  "version": "1.0.0",
+  "description": "This repository will hold source codes for the marketing or landing page",
+  "main": "index.html",
+  "dependencies": {
+    "less-watch-compiler": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BW-Chef-Portfolio-Oct-21-25/marketing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BW-Chef-Portfolio-Oct-21-25/marketing-page/issues"
+  },
+  "homepage": "https://github.com/BW-Chef-Portfolio-Oct-21-25/marketing-page#readme"
+}
