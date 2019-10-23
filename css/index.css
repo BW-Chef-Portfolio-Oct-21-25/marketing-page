@@ -598,7 +598,7 @@ header .video-container .overlay-desc .cta_btn:hover {
 }
 .content_main .wrapper .developers_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
