@@ -36,7 +36,7 @@ html {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color:white;
     border: 1px double #e0e0e0;
     max-width: 100%;
     width: 100%;
@@ -54,6 +54,10 @@ html {
     justify-content: space-evenly;
     max-width: 100%;
   }
+  .rachel-rey{
+    display: flex;
+    justify-content: center;
+  }
   footer {
     color: #22283B;
     background: #f4f4f4;
@@ -70,13 +74,21 @@ html {
   .home .intro p {
     padding: 0 15px;
   }
-  .home .space-images {
+  .home .cake-images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    .blast{
+       width: 28%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+    }
   }
-  .home .space-images img {
-    width: 28%;
+  .home .cake-images img {
+    width: 60%;
     margin: 20px 2.5%;
     border-radius: 20px;
     height: 100%;
@@ -123,21 +135,27 @@ html {
     height: auto;
     margin: 0 auto;
   }
+    
+  
+  
     cake-images {
         @media (max-width: 500px){
         flex-direction: column;
      }
+    }
     .bork{
-      @media(max-width: 500px){
-        display: none;
+      @media (max-width: 500px){
+       display: none;
+     }
     }
     .blast{
-        @media(max-width: 500px){
-            display: none;
-        }
+      @media (max-width: 500px){
+       display: none;
+     }
     }
     .sky{
-        @media(max-width: 500px){
-            
-        }
+      @media (max-width: 500px){
+        max-width: 100%;
+        width: 300px;
+      }
     }
