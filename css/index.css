@@ -241,15 +241,11 @@ a:active {
   width: 90px;
   cursor: pointer;
 }
-@media (max-width: 785px) {
-}
 .navigation .nav_menu_right {
   display: flex;
   width: 35%;
   align-items: center;
   justify-content: space-between;
-}
-@media (max-width:883px) {
 }
 @media (max-width: 785px) {
   .navigation .nav_menu_right {
