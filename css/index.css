@@ -52,7 +52,38 @@ a {
   font-size: 3rem;
   color: navy;
 }
+@media (max-width: 500px) {
+  .topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 h1 {
   color: navy;
   font-family: Bradley Hand, cursive;
+  font-size: 5rem;
+}
+.topofAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.teampic {
+  height: auto;
+  width: auto;
+  max-height: 10rem;
+  max-width: 25rem;
+}
+.contentofAbout {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.contentofAbout h1 {
+  background-color: red;
+  width: 350px;
 }
