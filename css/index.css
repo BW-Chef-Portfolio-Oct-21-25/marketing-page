@@ -53,10 +53,8 @@ a {
   color: navy;
 }
 @media (max-width: 500px) {
-  .topnav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .topnav a {
+    color: black;
   }
 }
 h1 {
@@ -84,6 +82,18 @@ h1 {
   align-items: center;
 }
 .contentofAbout h1 {
-  background-color: red;
+  background-color: purple;
   width: 350px;
+}
+.topofAbout {
+  color: purple;
+}
+@media (max-width: 500px) {
+  h1 {
+    background-color: blue;
+  }
+  .topofAbout {
+    display: flex;
+    flex-direction: column;
+  }
 }
