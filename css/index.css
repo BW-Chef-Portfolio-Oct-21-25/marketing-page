@@ -29,8 +29,9 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  background-color: white;
 }
-.containnav {
+.container .containnav {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -40,7 +41,7 @@ p {
   max-width: 100%;
   width: 100%;
 }
-.containnav a {
+.container .containnav a {
   text-decoration: none;
   font-size: 3rem;
   color: black;
@@ -48,7 +49,7 @@ p {
 .containnav h1 {
   font-size: 4rem;
 }
-.containnav nav {
+.containnav h1 .containnav nav {
   display: flex;
   justify-content: space-evenly;
   max-width: 100%;
@@ -70,66 +71,66 @@ footer {
 .home .intro h2 {
   padding: 15px;
 }
-.home .intro p {
+.home .intro h2 .home .intro p {
   padding: 0 15px;
 }
-.home .cake-images {
+.home .intro h2 .home .intro p .home .cake-images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.home .cake-images .blast {
+.home .intro h2 .home .intro p .home .cake-images .blast {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.home .cake-images img {
+.home .intro h2 .home .intro p .home .cake-images .home .cake-images img {
   width: 60%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-.home .visit-planets {
+.home .intro h2 .home .intro p .home .cake-images .home .visit-planets {
   padding: 15px;
 }
-.home .visit-planets h3 {
+.home .intro h2 .home .intro p .home .cake-images .home .visit-planets h3 {
   margin-top: 11px;
 }
-.home .visit-planets p {
+.home .intro h2 .home .intro p .home .cake-images .home .visit-planets p {
   margin-top: 13px;
 }
-.home .walk {
+.home .intro h2 .home .intro p .home .cake-images .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
 }
-.home .walk .walk-text {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text {
   width: 50%;
 }
-.home .walk .walk-text h3 {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text h3 {
   margin-bottom: 10px;
 }
-.home .walk .walk-text p {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text .btn {
   font-size: 1.5rem;
+  color: white;
   border-radius: 4px;
   background-color: black;
-  color: white;
   padding: 5px;
   width: 25%;
 }
-.home .walk .walk-text .btn:hover {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text .btn:hover {
   color: black;
   background-color: white;
 }
-.home .walk .walk-text .girl-img {
+.home .intro h2 .home .intro p .home .cake-images .home .walk .walk-text .girl-img {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -144,17 +145,17 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .bork {
+  cake-images .bork {
     display: none;
   }
 }
 @media (max-width: 500px) {
-  .blast {
+  cake-images .bork .blast {
     display: none;
   }
 }
 @media (max-width: 500px) {
-  .sky {
+  cake-images .bork .blast .sky {
     max-width: 100%;
     width: 300px;
   }
@@ -357,4 +358,18 @@ form {
     width: 100%;
     height: 100%;
   }
+}
+.some-class {
+  font-size: 1.5rem;
+  color: white;
+}
+.nav-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px double #e0e0e0;
+  max-width: 100%;
+  width: 100%;
 }
