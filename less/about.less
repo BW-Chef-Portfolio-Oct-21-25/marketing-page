@@ -42,6 +42,10 @@ html {
     width: 100%;
   }
   .containnav a {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 3rem;
     color: black;
@@ -66,7 +70,7 @@ html {
     align-items: center;
   }
   .home .intro h2 {
-    padding: 15px;
+    padding();
   }
   .home .intro p {
     padding: 0 15px;
@@ -83,7 +87,7 @@ html {
     height: 100%;
   }
   .home .visit-planets {
-    padding: 15px;
+    padding();
   }
   .home .visit-planets h3 {
     margin-top: 11px;
@@ -155,11 +159,12 @@ html {
     font-size: 2rem;
 
   }
-@media (max-width: 500px) {
+
   .home .space-images .blast {
-    max-width: 100%;
-    width: 100%;
+    @media (max-width: 500px) {
+    width: 122px;
   }
+}
   .home .space-images .sky {
     border-radius: 20px;
   }
@@ -202,4 +207,3 @@ html {
     height: 100%;
   }
 
-}
